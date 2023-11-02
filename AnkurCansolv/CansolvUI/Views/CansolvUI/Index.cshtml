@@ -1,0 +1,101 @@
+﻿@model IEnumerable<CansolvUI.Models.UICansolve>
+
+@{
+    ViewData["Title"] = "sha:256WWW.AnkurMall_Cansolv.@in//";
+}
+
+
+<style>
+   
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 12px; 
+        border: 1px solid #e0e0e0;
+    }
+
+    th {
+        background-color: #f4f4f4; 
+        font-weight: bold;
+    }
+
+    /* Custom styles for links */
+    a {
+        text-decoration: none;
+        color: #0078d4; 
+    }
+
+
+    
+    .parent-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .avinex-logo {
+        display: block;
+        width: 200px; /* Adjust the size as needed */
+        margin: 0 auto; /* Center horizontally by setting margin */
+    }
+
+        h1, h2 {
+        text-align: center;}
+
+</style>
+
+<h1>CansolvViewData</h1>
+<h2>Cansolv_Data_Result____</h2>
+
+<img src="https://media.licdn.com/dms/image/C4D0BAQF-hv8rMt86Rg/company-logo_200_200/0/1519900731946?e=2147483647&v=beta&t=WzSSsIaDIOccrMX6BDo8Bm95YpyuSYb2w6yxLmh3ueE" alt="Avinex Logo" class="avinex-logo">
+
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EventTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Value)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TagName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EventTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Value)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TagName)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
