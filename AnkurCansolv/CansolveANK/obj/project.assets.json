@@ -1871,11 +1871,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ankur\\Desktop\\CansolveCalulation\\AnkurCansolv\\CansolveANK\\CansolveANK.csproj",
+      "projectUniqueName": "C:\\Users\\ankur\\Desktop\\UICOMPONENTSCANSOLV\\CansolAnkuAvinexMvcApi\\AnkurCansolv\\CansolveANK\\CansolveANK.csproj",
       "projectName": "CansolveANK",
-      "projectPath": "C:\\Users\\ankur\\Desktop\\CansolveCalulation\\AnkurCansolv\\CansolveANK\\CansolveANK.csproj",
+      "projectPath": "C:\\Users\\ankur\\Desktop\\UICOMPONENTSCANSOLV\\CansolAnkuAvinexMvcApi\\AnkurCansolv\\CansolveANK\\CansolveANK.csproj",
       "packagesPath": "C:\\Users\\ankur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ankur\\Desktop\\CansolveCalulation\\AnkurCansolv\\CansolveANK\\obj\\",
+      "outputPath": "C:\\Users\\ankur\\Desktop\\UICOMPONENTSCANSOLV\\CansolAnkuAvinexMvcApi\\AnkurCansolv\\CansolveANK\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ankur\\AppData\\Roaming\\NuGet\\NuGet.Config",

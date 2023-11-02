@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2T2VpT4M/feC71e06eqIdiVP4gh27pFc3H4vs5r+aaUVQbj7i/OnxUHHk9c8I9TDOVcrBTG9/Cisjc9D8vSfpw==",
+  "dgSpecHash": "gPC2nKlXhaXpBzvNeWPHyRwlykAiGZ5R9ba6VocGTjxFegVRl1ObMP8wt5lq+fS/NkLW4JyPMhpTNoWOTtSfJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ankur\\Desktop\\CansolveCalulation\\AnkurCansolv\\CansolvUI\\CansolvUI.csproj",
+  "projectFilePath": "C:\\Users\\ankur\\Desktop\\UICOMPONENTSCANSOLV\\CansolAnkuAvinexMvcApi\\AnkurCansolv\\CansolvUI\\CansolvUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ankur\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\ankur\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

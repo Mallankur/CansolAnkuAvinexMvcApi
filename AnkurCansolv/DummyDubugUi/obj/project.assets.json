@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ankur\\Desktop\\CansolveCalulation\\AnkurCansolv\\DummyDubugUi\\DummyDubugUi.csproj",
+      "projectUniqueName": "C:\\Users\\ankur\\Desktop\\UICOMPONENTSCANSOLV\\CansolAnkuAvinexMvcApi\\AnkurCansolv\\DummyDubugUi\\DummyDubugUi.csproj",
       "projectName": "DummyDubugUi",
-      "projectPath": "C:\\Users\\ankur\\Desktop\\CansolveCalulation\\AnkurCansolv\\DummyDubugUi\\DummyDubugUi.csproj",
+      "projectPath": "C:\\Users\\ankur\\Desktop\\UICOMPONENTSCANSOLV\\CansolAnkuAvinexMvcApi\\AnkurCansolv\\DummyDubugUi\\DummyDubugUi.csproj",
       "packagesPath": "C:\\Users\\ankur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ankur\\Desktop\\CansolveCalulation\\AnkurCansolv\\DummyDubugUi\\obj\\",
+      "outputPath": "C:\\Users\\ankur\\Desktop\\UICOMPONENTSCANSOLV\\CansolAnkuAvinexMvcApi\\AnkurCansolv\\DummyDubugUi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ankur\\AppData\\Roaming\\NuGet\\NuGet.Config",

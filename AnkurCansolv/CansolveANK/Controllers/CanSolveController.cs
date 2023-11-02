@@ -81,12 +81,22 @@ namespace CansolveANK.Controllers
 
             return result;
         }
-
-
-
-
-        [HttpPost("{StartEventTimeAvgCalculations}/{endTimeForCalculations}/{frequency}")]
+        [HttpPost("GetAvgValue")]
         public async Task<List<AggregationModelResult>> GetAvgValue(
+    DateTime StartEventTimeAvgCalculations,
+    DateTime endTimeForCalculations,
+    long frequency,
+    [FromBody] string[] TagName)
+        {
+            return await _Servises.GetAvgValue(StartEventTimeAvgCalculations, endTimeForCalculations, TagName, frequency);
+        }
+
+
+
+
+        //[Route("{StartEventTimeAvgCalculations}/{endTimeForCalculations}/{frequency}")]
+        [HttpPost("{StartEventTimeAvgCalculations}/{endTimeForCalculations}/{frequency}")]
+        public async Task<List<AggregationModelResult>> GetAvgValueAsync(
     DateTime StartEventTimeAvgCalculations,
     DateTime endTimeForCalculations,
     long frequency,

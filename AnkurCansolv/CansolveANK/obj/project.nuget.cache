@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gU9wjUVbrTOqrzuSEhQgyd2tjgn2KLjM6GEEP7JGcOqjc+EGQg+EuVWnYAa9bzjcwpjKnCYG+OpbcJAewcT6TQ==",
+  "dgSpecHash": "jCHHYpWqmf36zlX83Nt7LwB4tCQH9JfUuLvfLNHoJyEQqIRy7Zs8yghetJshZOtwEMYdCd0UihT26ttQ+pWH4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ankur\\Desktop\\CansolveCalulation\\AnkurCansolv\\CansolveANK\\CansolveANK.csproj",
+  "projectFilePath": "C:\\Users\\ankur\\Desktop\\UICOMPONENTSCANSOLV\\CansolAnkuAvinexMvcApi\\AnkurCansolv\\CansolveANK\\CansolveANK.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ankur\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\ankur\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

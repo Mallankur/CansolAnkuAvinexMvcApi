@@ -9,41 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CansolvUI
 build_property.RootNamespace = CansolvUI
-build_property.ProjectDir = C:\Users\ankur\Desktop\CansolveCalulation\AnkurCansolv\CansolvUI\
+build_property.ProjectDir = C:\Users\ankur\Desktop\UICOMPONENTSCANSOLV\CansolAnkuAvinexMvcApi\AnkurCansolv\CansolvUI\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ankur\Desktop\CansolveCalulation\AnkurCansolv\CansolvUI
+build_property.MSBuildProjectDirectory = C:\Users\ankur\Desktop\UICOMPONENTSCANSOLV\CansolAnkuAvinexMvcApi\AnkurCansolv\CansolvUI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ankur/Desktop/CansolveCalulation/AnkurCansolv/CansolvUI/Views/CansolvUI/Index.cshtml]
+[C:/Users/ankur/Desktop/UICOMPONENTSCANSOLV/CansolAnkuAvinexMvcApi/AnkurCansolv/CansolvUI/Views/CansolvUI/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fuc29sdlVJXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ankur/Desktop/CansolveCalulation/AnkurCansolv/CansolvUI/Views/Home/Index.cshtml]
+[C:/Users/ankur/Desktop/UICOMPONENTSCANSOLV/CansolAnkuAvinexMvcApi/AnkurCansolv/CansolvUI/Views/CansolvUI/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fuc29sdlVJXEluZGV4Mi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ankur/Desktop/UICOMPONENTSCANSOLV/CansolAnkuAvinexMvcApi/AnkurCansolv/CansolvUI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ankur/Desktop/CansolveCalulation/AnkurCansolv/CansolvUI/Views/Home/Privacy.cshtml]
+[C:/Users/ankur/Desktop/UICOMPONENTSCANSOLV/CansolAnkuAvinexMvcApi/AnkurCansolv/CansolvUI/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ankur/Desktop/CansolveCalulation/AnkurCansolv/CansolvUI/Views/Shared/Error.cshtml]
+[C:/Users/ankur/Desktop/UICOMPONENTSCANSOLV/CansolAnkuAvinexMvcApi/AnkurCansolv/CansolvUI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ankur/Desktop/CansolveCalulation/AnkurCansolv/CansolvUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ankur/Desktop/UICOMPONENTSCANSOLV/CansolAnkuAvinexMvcApi/AnkurCansolv/CansolvUI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ankur/Desktop/CansolveCalulation/AnkurCansolv/CansolvUI/Views/_ViewImports.cshtml]
+[C:/Users/ankur/Desktop/UICOMPONENTSCANSOLV/CansolAnkuAvinexMvcApi/AnkurCansolv/CansolvUI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ankur/Desktop/CansolveCalulation/AnkurCansolv/CansolvUI/Views/_ViewStart.cshtml]
+[C:/Users/ankur/Desktop/UICOMPONENTSCANSOLV/CansolAnkuAvinexMvcApi/AnkurCansolv/CansolvUI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ankur/Desktop/CansolveCalulation/AnkurCansolv/CansolvUI/Views/Shared/_Layout.cshtml]
+[C:/Users/ankur/Desktop/UICOMPONENTSCANSOLV/CansolAnkuAvinexMvcApi/AnkurCansolv/CansolvUI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-m16lxgnrs5

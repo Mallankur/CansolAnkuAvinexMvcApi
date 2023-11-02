@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qq20+3gQ5FTPC4+y3W2kj/1EmugfbFi4IkkLPGr/aRxw1gJA1JvdwXDMea/wlofbBvask4c7Ks1XchDbmD6YcQ==",
+  "dgSpecHash": "nYYgx7x7rOdFn+420EPsxNtzKKv++M2+IKjo4aQhrmJx6kemjB1v3xDI0y6ZJ3xeXmfDFpNDvC47SE8UfvR4/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ankur\\Desktop\\CansolveCalulation\\AnkurCansolv\\IDSERVER\\IDSERVER.csproj",
+  "projectFilePath": "C:\\Users\\ankur\\Desktop\\UICOMPONENTSCANSOLV\\CansolAnkuAvinexMvcApi\\AnkurCansolv\\IDSERVER\\IDSERVER.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ankur\\.nuget\\packages\\identitymodel\\4.4.0\\identitymodel.4.4.0.nupkg.sha512",
     "C:\\Users\\ankur\\.nuget\\packages\\identityserver4\\4.1.2\\identityserver4.4.1.2.nupkg.sha512",
