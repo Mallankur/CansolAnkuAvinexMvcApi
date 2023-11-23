@@ -58,3 +58,4 @@ C:\Users\ankur\Desktop\UICOMPONENTSCANSOLV\CansolAnkuAvinexMvcApi\AnkurCansolv\D
 C:\Users\ankur\Desktop\UICOMPONENTSCANSOLV\CansolAnkuAvinexMvcApi\AnkurCansolv\DummyDubugUi\obj\Debug\net7.0\DummyDubugUi.pdb
 C:\Users\ankur\Desktop\UICOMPONENTSCANSOLV\CansolAnkuAvinexMvcApi\AnkurCansolv\DummyDubugUi\obj\Debug\net7.0\DummyDubugUi.genruntimeconfig.cache
 C:\Users\ankur\Desktop\UICOMPONENTSCANSOLV\CansolAnkuAvinexMvcApi\AnkurCansolv\DummyDubugUi\obj\Debug\net7.0\ref\DummyDubugUi.dll
+C:\Users\ankur\Desktop\UICOMPONENTSCANSOLV\CansolAnkuAvinexMvcApi\AnkurCansolv\DummyDubugUi\obj\Debug\net7.0\DummyDubugUi.sourcelink.json

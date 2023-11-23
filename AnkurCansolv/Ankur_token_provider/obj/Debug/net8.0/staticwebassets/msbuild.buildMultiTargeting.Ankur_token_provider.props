@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Ankur_token_provider.props" />
+</Project>

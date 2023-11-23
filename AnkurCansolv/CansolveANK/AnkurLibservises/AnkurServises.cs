@@ -16,20 +16,24 @@ namespace CansolveANK.AnkurLibservises
             sampleData = database.GetCollection<Cansolve>(connect.Value.CollectionName);
         }
         /// <summary>
-        /// @AnkDataraw
+        /// @exadformerankurservises 
         /// </summary>
         /// <param name="EventTime"></param>
         /// <param name="EndEvenTime"></param>
+        /// <param name="TagName"></param>
         /// <returns></returns>
-        public async Task<List<Cansolve>> GetByEvenTimeAsync(DateTime EventTime , DateTime EndEvenTime )
+        public async Task<List<Cansolve>> GetByEvenTimeAsync(DateTime EventTime , DateTime EndEvenTime , string[] TagName)
         {
+
             var filter = Builders<Cansolve>.Filter.Gte(x => x.EventTime, EventTime) &
-                     Builders<Cansolve>.Filter.Lte(x => x.EventTime, EndEvenTime);
+                     Builders<Cansolve>.Filter.Lte(x => x.EventTime, EndEvenTime) & Builders<Cansolve>.Filter.In("TagName", TagName);
 
             var result = await sampleData.Find(filter).ToListAsync();
 
             return result;
         }
+
+        
 
 
         public Task<Cansolve> GetByIdAsync(string TagName)
@@ -46,7 +50,7 @@ namespace CansolveANK.AnkurLibservises
         /// <returns></returns>
         public async Task<List<AggregationModelResult>> GetAvgValue(DateTime startEVENTtIME, DateTime endTime, string[] TagName, long frequency)
         {
-            var connectionstring = "mongodb://10.2.10.19:27017";
+            var connectionstring = "mongodb://10.2.10.5:27017";
             string databaseName = "RealTime";
             string CollectionsName = "CansolvData";
             if (startEVENTtIME == DateTime.MinValue)
@@ -60,11 +64,11 @@ namespace CansolveANK.AnkurLibservises
           
             var result = resultList.Select(aggregationModel => new AggregationModelResult
             {
-                Id = aggregationModel.Id,
+                //Id = aggregationModel.Id,
                 Value = aggregationModel.Average,
                 EventTime = aggregationModel.EventTime,
                 TagName = aggregationModel.TagName
-            }).ToList();
+            }).OrderBy(item => item.EventTime).ToList();
 
             return result;
         }

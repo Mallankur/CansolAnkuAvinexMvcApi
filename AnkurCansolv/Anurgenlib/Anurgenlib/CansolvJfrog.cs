@@ -40,28 +40,25 @@ namespace Anurgenlib
             );
 
             var aggregation = collection.Aggregate()
-                .Match(filter)
-                .Group(new BsonDocument
-                {
-            { "_id", new BsonDocument { { "TagName", "$TagName" }, { "timeInterval", new BsonDocument("$toDate", new BsonDocument("$subtract", new BsonArray { "$EventTime", new BsonDocument("$mod", new BsonArray { new BsonDocument("$toLong", "$EventTime"), frequency }) })) } } },
-            { "averageValue", new BsonDocument("$avg", "$Value") }
-                })
-                .Project(new BsonDocument
-                {
-            { "_id", 0 },
-            { "TagName", "$_id.TagName" },
-            { "EventTime", new BsonDocument("$concat", new BsonArray
-                {
-                    new BsonDocument("$dateToString", new BsonDocument("format", "%Y-%m-%dT%H:%M:%S.%LZ").Add("date", "$_id.timeInterval")),
-                    " to ",
-                    new BsonDocument("$dateToString", new BsonDocument("format", "%Y-%m-%dT%H:%M:%S.%LZ").Add("date", new BsonDocument("$add", new BsonArray { "$_id.timeInterval", frequency })))
-                })
-            },
-            { "Average", "$averageValue" }
-                });;
+    .Match(filter)
+    .Group(new BsonDocument
+    {
+        { "_id", new BsonDocument { { "TagName", "$TagName" }, { "timeInterval", new BsonDocument("$toDate", new BsonDocument("$subtract", new BsonArray { "$EventTime", new BsonDocument("$mod", new BsonArray { new BsonDocument("$toLong", "$EventTime"), frequency }) })) } } },
+        { "averageValue", new BsonDocument("$avg", "$Value") }
+    })
+    .Project(new BsonDocument
+    {
+        { "TagName", "$_id.TagName" },
+        { "EventTime", new BsonDocument("$concat", new BsonArray
+            {
+                new BsonDocument("$dateToString", new BsonDocument("format", "%Y-%m-%dT%H:%M:%S.%LZ").Add("date", "$_id.timeInterval")),
+                new BsonDocument("$literal", " ")
+            })
+        },
+        { "Average", "$averageValue" }
+    });
 
-            var results = aggregation.ToList(); 
-           
+            var results = aggregation.ToList();
 
             var aggregationModels = results.Select(result =>
             {

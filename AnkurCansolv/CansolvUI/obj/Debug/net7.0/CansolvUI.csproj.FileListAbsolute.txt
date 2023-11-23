@@ -446,3 +446,4 @@ C:\Users\ankur\Desktop\UICOMPONENTSCANSOLV\CansolAnkuAvinexMvcApi\AnkurCansolv\C
 C:\Users\ankur\Desktop\UICOMPONENTSCANSOLV\CansolAnkuAvinexMvcApi\AnkurCansolv\CansolvUI\obj\Debug\net7.0\CansolvUI.pdb
 C:\Users\ankur\Desktop\UICOMPONENTSCANSOLV\CansolAnkuAvinexMvcApi\AnkurCansolv\CansolvUI\obj\Debug\net7.0\CansolvUI.genruntimeconfig.cache
 C:\Users\ankur\Desktop\UICOMPONENTSCANSOLV\CansolAnkuAvinexMvcApi\AnkurCansolv\CansolvUI\obj\Debug\net7.0\ref\CansolvUI.dll
+C:\Users\ankur\Desktop\UICOMPONENTSCANSOLV\CansolAnkuAvinexMvcApi\AnkurCansolv\CansolvUI\obj\Debug\net7.0\CansolvUI.sourcelink.json

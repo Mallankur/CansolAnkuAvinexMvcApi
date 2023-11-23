@@ -22,6 +22,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=CansolvUI}/{action=Index2}/{id?}");
+    pattern: "{controller=CansolvUI}/{action=Index}/{id?}");
 
 app.Run();

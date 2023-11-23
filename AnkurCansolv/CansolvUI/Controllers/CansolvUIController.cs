@@ -1,6 +1,7 @@
 ﻿using CansolvUI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using static System.Net.WebRequestMethods;
 
 namespace CansolvUI.Controllers
 {
@@ -45,21 +46,22 @@ namespace CansolvUI.Controllers
         public IActionResult Index()
         {
             List<UICansolve> cansolvDataList = new List<UICansolve>();
-            var eventTimeStart = "2023-11-02T10:44:56.310+00:00";
-            var eventTimeEnd = "2023-11-02T10:45:37.041+00:00";
-            var frequency = 300000;
+            var eventTimeStart = "2023-10-12T11:05:32.302+00:00";
+            var eventTimeEnd = "2023-10-12T11:05:32.302+00:00";
+
 
             // Define the request data (parameters sent as route values)
             var requestData = new
             {
-                StartEventTimeAvgCalculations = eventTimeStart,
-                endTimeForCalculations = eventTimeEnd,
-                frequency = frequency,
-                TagName = new string[] { "AM:SASK:CCS_BDPS-UEGGACT103A-CO" }
+
+
+                TagName = new string[] { "AM:SASK:CCS_BDPS-UEGOFT_222_1" }
             };
 
+            string[] TagName = new string[] { "AM:SASK:CCS_BDPS-UEGGACT103A-CO" };
+
             // Construct the URL with route parameters
-            var url = $"{_Client.BaseAddress}/CanSolve/GetAvgValue/{eventTimeStart}/{eventTimeEnd}/{frequency}";
+            var url ="https://localhost:7222/api/CanSolve/raw?start_date=2023-10-12T11%3A05%3A32.302%2B00%3A00&end_date=2023-10-12T11%3A05%3A32.302%2B00%3A00";
 
             // Send a POST request with the data in the request body
             HttpResponseMessage response = _Client.PostAsJsonAsync(url, requestData).Result;

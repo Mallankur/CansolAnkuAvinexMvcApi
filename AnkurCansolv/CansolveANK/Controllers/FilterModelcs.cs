@@ -5,9 +5,9 @@ namespace CansolveANK.Controllers
 {
     public class FilterModelcs
     {
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-        public string ? id { get; set; }
+        //[BsonId]
+        //[BsonRepresentation(BsonType.ObjectId)]
+        //public string ? id { get; set; }
         public string? TagName { get; set; }
         public Double ? Value{ get; set; }
 

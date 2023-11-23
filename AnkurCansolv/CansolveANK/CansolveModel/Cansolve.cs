@@ -10,9 +10,10 @@ namespace CansolveANK.CansolveModel
     [BsonIgnoreExtraElements]
     public class Cansolve
     {
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-        public string? Id { get; set; }
+        //[BsonId]
+        //[BsonRepresentation(BsonType.ObjectId)]
+        //[JsonIgnore]
+        //public string Id { get; set; }
 
         [Newtonsoft.Json.JsonProperty("TagName")]
         public string ? TagName { get; set; }

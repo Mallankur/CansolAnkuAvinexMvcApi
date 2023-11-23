@@ -120,3 +120,4 @@ C:\Users\ankur\Desktop\UICOMPONENTSCANSOLV\CansolAnkuAvinexMvcApi\AnkurCansolv\C
 C:\Users\ankur\Desktop\UICOMPONENTSCANSOLV\CansolAnkuAvinexMvcApi\AnkurCansolv\CansolveANK\obj\Debug\net7.0\CansolveANK.pdb
 C:\Users\ankur\Desktop\UICOMPONENTSCANSOLV\CansolAnkuAvinexMvcApi\AnkurCansolv\CansolveANK\obj\Debug\net7.0\CansolveANK.genruntimeconfig.cache
 C:\Users\ankur\Desktop\UICOMPONENTSCANSOLV\CansolAnkuAvinexMvcApi\AnkurCansolv\CansolveANK\obj\Debug\net7.0\ref\CansolveANK.dll
+C:\Users\ankur\Desktop\UICOMPONENTSCANSOLV\CansolAnkuAvinexMvcApi\AnkurCansolv\CansolveANK\obj\Debug\net7.0\CansolveANK.sourcelink.json

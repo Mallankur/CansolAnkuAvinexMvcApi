@@ -9,13 +9,13 @@ namespace CansolveANK.AnkurLibservises
     /// <param name="EventTimeStart"></param>
     /// <param name="EvenntTimeEnd"></param>
     /// <returns></returns>
-        Task<List<Cansolve>> GetByEvenTimeAsync(DateTime EventTimeStart , DateTime EvenntTimeEnd );
+        Task<List<Cansolve>> GetByEvenTimeAsync(DateTime EventTimeStart , DateTime EvenntTimeEnd  , string[] TagName);
         /// <summary>
         /// @AnkurMall@exAdform
         /// </summary>
         /// <param name="Tagname"></param>
         /// <returns></returns>
-        Task<Cansolve> GetByIdAsync(String Tagname);
+        
         /// <summary>
         /// @AnkurMall@exAdform
         /// </summary>
@@ -26,6 +26,6 @@ namespace CansolveANK.AnkurLibservises
         /// <returns></returns>
         Task<List<AggregationModelResult>> GetAvgValue(DateTime startEVENTtIME, DateTime endTime , string[] TagName, long frequency );
 
-        Task<List<Cansolve>> GetAsyncValueDos();
+      
     }
 }
