@@ -10,11 +10,11 @@ public  class Config
           {
                    new Client
                    {
-                        ClientId = "cansolveClient",
+                        ClientId = "Avinexuser",
                         AllowedGrantTypes = GrantTypes.ClientCredentials,
                         ClientSecrets =
                         {
-                            new Secret("secret".Sha256())
+                            new Secret("am@avinex".Sha256())
                         },
                         AllowedScopes = { "cansolveAPI" }
                    },

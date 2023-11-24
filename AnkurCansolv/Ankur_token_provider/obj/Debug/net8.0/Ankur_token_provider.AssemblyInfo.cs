@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ankur_token_provider")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b54a26fc391965d621c4daad86d9c38a21a4a73")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e59b09aef5e042c052b884ec38def2246a43e86a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ankur_token_provider")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ankur_token_provider")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -39,3 +39,5 @@ C:\Users\ankur\Desktop\UICOMPONENTSCANSOLV\CansolAnkuAvinexMvcApi\AnkurCansolv\A
 C:\Users\ankur\Desktop\UICOMPONENTSCANSOLV\CansolAnkuAvinexMvcApi\AnkurCansolv\Ankur_token_provider\obj\Debug\net8.0\Ankur_token_provider.pdb
 C:\Users\ankur\Desktop\UICOMPONENTSCANSOLV\CansolAnkuAvinexMvcApi\AnkurCansolv\Ankur_token_provider\obj\Debug\net8.0\Ankur_token_provider.genruntimeconfig.cache
 C:\Users\ankur\Desktop\UICOMPONENTSCANSOLV\CansolAnkuAvinexMvcApi\AnkurCansolv\Ankur_token_provider\obj\Debug\net8.0\ref\Ankur_token_provider.dll
+C:\Users\ankur\Desktop\UICOMPONENTSCANSOLV\CansolAnkuAvinexMvcApi\AnkurCansolv\Ankur_token_provider\obj\Debug\net8.0\Ankur_token_provider.Properties.Resources.resources
+C:\Users\ankur\Desktop\UICOMPONENTSCANSOLV\CansolAnkuAvinexMvcApi\AnkurCansolv\Ankur_token_provider\obj\Debug\net8.0\Ankur_token_provider.csproj.GenerateResource.cache

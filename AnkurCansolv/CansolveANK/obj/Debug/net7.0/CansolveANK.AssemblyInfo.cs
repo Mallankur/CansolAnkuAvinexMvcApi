@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CansolveANK")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a0e5f6882fd56ed2e6f4b8b2e2e53b1ffdeb90a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e59b09aef5e042c052b884ec38def2246a43e86a")]
 [assembly: System.Reflection.AssemblyProductAttribute("CansolveANK")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CansolveANK")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
